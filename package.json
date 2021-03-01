@@ -1,0 +1,25 @@
+{
+    "name": "algol68",
+    "displayName": "Algol68",
+    "description": "Algol68",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.53.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "algol68",
+            "aliases": ["Algol68", "algol68"],
+            "extensions": [".a68"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "algol68",
+            "scopeName": "",
+            "path": "./syntaxes/algol68.tmLanguage.json"
+        }]
+    }
+}
