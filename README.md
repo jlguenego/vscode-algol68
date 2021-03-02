@@ -4,7 +4,7 @@ Support for Programming Language ALGOL 68
 
 ## Features
 
-- Syntax Highlighting.
+- Just Syntax Highlighting of `.a68` files.
 
 ## Bibliography
 
