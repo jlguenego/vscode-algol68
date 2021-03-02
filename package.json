@@ -1,14 +1,25 @@
 {
   "name": "algol68",
-  "displayName": "Algol68",
-  "description": "Algol68",
   "version": "0.0.1",
+  "publisher": "jlguenego",
   "engines": {
     "vscode": "^1.53.0"
   },
+  "license": "ISC",
+  "displayName": "Algol68",
+  "description": "Algol68 - Syntax Highlighting",
   "categories": [
     "Programming Languages"
   ],
+  "keywords": [
+    "algol",
+    "algol68",
+    "syntax highligthing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlguenego/vscode-algol68.git"
+  },
   "contributes": {
     "languages": [
       {
