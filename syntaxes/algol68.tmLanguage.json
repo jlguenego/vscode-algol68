@@ -16,9 +16,19 @@
     "comment": {
       "patterns": [
         {
-          "name": "comment.multiline.algol68",
+          "name": "comment.sharp.multiline.algol68",
           "begin": "#",
           "end": "#"
+        },
+        {
+          "name": "comment.comment.multiline.algol68",
+          "begin": "COMMENT",
+          "end": "COMMENT"
+        },
+        {
+          "name": "comment.co.multiline.algol68",
+          "begin": "CO",
+          "end": "CO"
         }
       ]
     },
