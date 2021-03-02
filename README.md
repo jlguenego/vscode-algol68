@@ -9,6 +9,7 @@ Support for Programming Language ALGOL 68
 ## Bibliography
 
 - https://jmvdveer.home.xs4all.nl/learning-algol-68-genie.pdf
+- Tutorial by small examples: https://github.com/jlguenego/algol
 
 ## Thanks
 
