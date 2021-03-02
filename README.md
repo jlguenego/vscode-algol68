@@ -11,6 +11,11 @@ Support for Programming Language ALGOL 68
 - https://jmvdveer.home.xs4all.nl/learning-algol-68-genie.pdf
 - Tutorial by small examples: https://github.com/jlguenego/algol
 
+## TODO
+
+- More syntax highlighting.
+- A prettier/beautifyer/linter
+
 ## Thanks
 
 Thanks to **Marcel van der Veer**, for the work he has done regarding Algol,
