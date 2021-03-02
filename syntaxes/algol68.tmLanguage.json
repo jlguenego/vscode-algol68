@@ -10,6 +10,12 @@
     },
     {
       "include": "#strings"
+    },
+    {
+      "include": "#modes"
+    },
+    {
+      "include": "#predefined-const"
     }
   ],
   "repository": {
@@ -36,7 +42,19 @@
       "patterns": [
         {
           "name": "keyword.control.algol68",
-          "match": "\\b(BEGIN|END|TO|DO|OD|INT|REAL|BOOL|CHAR|STRUCT)\\b"
+          "match": "\\b(BEGIN|END|FOR|FROM|BY|TO|DO|OD|INT|REAL|BOOL|CHAR|STRUCT)\\b"
+        },
+        {
+          "name": "keyword.control.if.algol68",
+          "match": "\\b(IF|THEN|ELSE|ELIF|FI)\\b"
+        },
+        {
+          "name": "entity.name.function.algol68",
+          "match": "\\b(PROC)\\b"
+        },
+        {
+          "name": "entity.name.function.algol68",
+          "match": "\\b(ABS|LWB|UPB)\\b"
         }
       ]
     },
@@ -48,6 +66,34 @@
         {
           "name": "constant.character.escape.algol68",
           "match": "\\\\."
+        }
+      ]
+    },
+    "modes": {
+      "patterns": [
+        {
+          "name": "entity.name.type.algol68",
+          "match": "\\b(INT|REAL|BOOL|CHAR|STRUCT)\\b"
+        },
+        {
+          "name": "entity.name.type.algol68",
+          "match": "\\b(INT|REAL|BOOL|CHAR|STRUCT)\\b"
+        },
+        {
+          "name": "keyword.control.algol68",
+          "match": "\\b(REPR|LONG)\\b"
+        }
+      ]
+    },
+    "predefined-const": {
+      "patterns": [
+        {
+          "name": "entity.name.label.char.algol68",
+          "match": "\\b(newline|blank)\\b"
+        },
+        {
+          "name": "entity.name.label.int.algol68",
+          "match": "\\b(max int|long max int|long long max int)\\b"
         }
       ]
     }
